@@ -1,314 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sistemas de Refrigeración por Absorción</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header><div class="container"><h1>SISTEMAS DE REFRIGERACIÓN POR ABSORCIÓN</h1>
-      <img src="https://static.vecteezy.com/system/resources/previews/029/102/166/non_2x/low-poly-and-air-conditioner-logo-design-cleaning-and-repairing-an-air-conditioner-design-and-illustration-free-vector.jpg" alt="Logo de aire acondicionado" />
-      <time class="date">publicado 19-12-2024</time></div>
-      <!--título principal y fecha de publicación-->
-      
-      <nav class="menu">
-        <p><details>
-              <summary>Contenido</summary>
-              <p><a href="#m0">Antecedentes</a></p>
-              <p><a href="#m1">Definición</a></p>
-              <p><a href="#m2">Equipos y Funcionamiento del Sistema</a></p>
-              <p><a href="#m3">Pares Refrigerente-Absorbente</a></p>
-              <p><a href="#m4">Ventajas y Desventajas</a></p>
-              <p><a href="#m5">Principales Usos</a></p>
-              <p><a href="#m6">Referencias Bibliográficas</a></p>
-            </details></p>
-      </nav><br />
-      <!--menú de navegación-->
-    </header>
-    <!--encabezado-->
 
-    <main>
-      <div class="card-container">
-        <div class="card">
-          <div class="card-info-container"><h2>Antecedentes</h2>
-            <p>
-              La refrigeración es el proceso por el cual se remueve calor de la
-          materia (en estado sólido, líquido o gaseoso), es decir, que existe
-          una disminución de la temperatura entre un estado 1 y un estado 2. Uno
-          de los métodos más antiguos, para reducir la temperatura en un espacio
-          determinado, era una rápida expansión de los gases bajo presiones
-          reducidas. También, el añadir sales al agua como nitrato de sodio,
-          tiosulfato de sodio y sulfito de sodio lograban el mismo efecto (sales
-          disueltas en agua como cloruro de sodio y cloruro de calcio también
-          pueden contribuir a refrigerar un espacio, pero en menor medida).
-          Asimismo, una de las formas más conocidas y antiguas para lograr la
-          refrigeración es el uso de hielo, en donde al circular el aire
-          caliente por el hielo ocurre una transferencia de calor por
-          convección, por lo que el aire reduce su temperatura.
-        </p>
-        <p >
-          Sin embargo, la refrigeración mecánica no fue posible, hasta 1834
-          cuando Jacob Perkins construyó el primer sistema de refrigeración por
-          compresión de vapor, el cual es un ciclo por el cual circula un
-          refrigerante y se compone de un evaporador, un condensador, un
-          compresor y una válvula de expansión. En el evaporador es donde se
-          lleva a cabo la refrigeración; ya que el aire le transfiere calor al
-          refrigerante (el cual tiene un bajo punto de ebullición), actuando
-          como sumidero. Después el refrigerante entra al compresor como vapor,
-          y a la salida de este sale como vapor a alta presión. El vapor a alta
-          presión entra al condensador, en donde gracias a una transferencia de
-          calor por conducción y convección (actuando como fuente), se convierte
-          en líquido a alta presión. Entonces, dicho líquido a alta presión
-          llega a una válvula de expansión en donde existe una caída de presión,
-          provocando que salga como líquido o líquido-vapor a baja presión, el
-          cual entra al evaporador, repitiendo el proceso.
-        </p>
-        <p >
-          A pesar de que el sistema de refrigeración por compresión de vapor es
-          un sistema que se sigue empleando hasta la actualidad por su alto COP
-          o coeficiente de desempeño (relación entre el calor removido con
-          respecto al trabajo que requiere el compresor), según el Instituto
-          Internacional de Refrigeración, la refrigeración y los sistemas de
-          aire acondicionado consumen aproximadamente el 15% de la generación
-          total de energía eléctrica en el mundo. Además, considerando que el
-          80% de la electricidad en el mundo se está generando por combustibles
-          fósiles, la refrigeración por compresión de vapor parece una forma
-          insostenible para el futuro. Es en este punto donde entra la idea de
-          refrigeración por absorción.
-        </p></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sistemas de Refrigeración por Absorción</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo-container"><img
+          src="https://static.vecteezy.com/system/resources/previews/029/102/166/non_2x/low-poly-and-air-conditioner-logo-design-cleaning-and-repairing-an-air-conditioner-design-and-illustration-free-vector.jpg"
+          alt="Logo de aire acondicionado" /></div>
+      <div class="letras"><h1>SISTEMAS DE REFRIGERACIÓN POR ABSORCIÓN</h1>
+      <time class="date">Publicado 19-12-2024</time>
+    <!--título principal y fecha de publicación-->
+
+    <nav class="menu">
+      <details>
+        <summary>Contenido</summary>
+        <li><a href="#m0">Antecedentes</a></li>
+        <li><a href="#m1">Definición</a></li>
+        <li><a href="#m2">Equipos y Funcionamiento del Sistema</a></li>
+        <li><a href="#m3">Pares Refrigerente-Absorbente</a></li>
+        <li><a href="#m4">Ventajas y Desventajas</a></li>
+        <li><a href="#m5">Principales Usos</a></li>
+        <li><a href="#m6">Referencias Bibliográficas</a></li>
+      </details>
+    </nav>
+      </div></div>
+    <!--menú de navegación-->
+  </header>
+  <!--encabezado-->
+
+  <main>
+    <div class="card-container">
+      <div class="card">
+        <div class="card-info-container">
+          <h2 id="m0">Antecedentes</h2></br>
+          <p>
+            La refrigeración es el proceso por el cual se remueve calor de la
+            materia (en estado sólido, líquido o gaseoso), es decir, que existe
+            una disminución de la temperatura entre un estado 1 y un estado 2. Uno
+            de los métodos más antiguos, para reducir la temperatura en un espacio
+            determinado, era una rápida expansión de los gases bajo presiones
+            reducidas. También, el añadir sales al agua como nitrato de sodio,
+            tiosulfato de sodio y sulfito de sodio lograban el mismo efecto (sales
+            disueltas en agua como cloruro de sodio y cloruro de calcio también
+            pueden contribuir a refrigerar un espacio, pero en menor medida).
+            Asimismo, una de las formas más conocidas y antiguas para lograr la
+            refrigeración es el uso de hielo, en donde al circular el aire
+            caliente por el hielo ocurre una transferencia de calor por
+            convección, por lo que el aire reduce su temperatura.
+          </p>
+          <p>
+            Sin embargo, la refrigeración mecánica no fue posible, hasta 1834
+            cuando Jacob Perkins construyó el primer sistema de refrigeración por
+            compresión de vapor, el cual es un ciclo por el cual circula un
+            refrigerante y se compone de un evaporador, un condensador, un
+            compresor y una válvula de expansión. En el evaporador es donde se
+            lleva a cabo la refrigeración; ya que el aire le transfiere calor al
+            refrigerante (el cual tiene un bajo punto de ebullición), actuando
+            como sumidero. Después el refrigerante entra al compresor como vapor,
+            y a la salida de este sale como vapor a alta presión. El vapor a alta
+            presión entra al condensador, en donde gracias a una transferencia de
+            calor por conducción y convección (actuando como fuente), se convierte
+            en líquido a alta presión. Entonces, dicho líquido a alta presión
+            llega a una válvula de expansión en donde existe una caída de presión,
+            provocando que salga como líquido o líquido-vapor a baja presión, el
+            cual entra al evaporador, repitiendo el proceso.
+          </p>
+          <p>
+            A pesar de que el sistema de refrigeración por compresión de vapor es
+            un sistema que se sigue empleando hasta la actualidad por su alto COP
+            o coeficiente de desempeño (relación entre el calor removido con
+            respecto al trabajo que requiere el compresor), según el Instituto
+            Internacional de Refrigeración, la refrigeración y los sistemas de
+            aire acondicionado consumen aproximadamente el 15% de la generación
+            total de energía eléctrica en el mundo. Además, considerando que el
+            80% de la electricidad en el mundo se está generando por combustibles
+            fósiles, la refrigeración por compresión de vapor parece una forma
+            insostenible para el futuro. Es en este punto donde entra la idea de
+            refrigeración por absorción.
+          </p>
+        </div>
+      </div>
         <!--antecedentes-->
 
-        <div class="card-image-container"><img src="https://ecohabitar.org/wp-content/uploads/2021/12/hielo-1.jpg" alt="Yackchal: fabrica de hielo en el desierto"></div></div>
-        <!--imagen de antecedentes-->
-        
-        <div class="card"><div class="card-info-container"><h2>Definición</h2>
-        
-        <p>
-          El sistema de refrigeración por absorción es un método por el cual se
-          puede remover calor empleando una máquina de absorción. Dicho sistema
-          se impulsa térmicamente por calor residual o energías renovables como
-          la solar, y a diferencia del sistema de refrigeración por compresión
-          de vapor realiza una compresión química en lugar de una compresión
-          física, por lo tanto requiere un aporte muy bajo de energía eléctrica.
-        </p>
-        <p>
-          Para comprender por completo el concepto de refrigeración por
-          absorción, tenemos que comprender a qué nos referimos con el término
-          de absorción. La absorción es el proceso en el cual una sustancia en
-          una fase es incorporada dentro de otra sustancia que se encuentra en
-          una fase diferente (en este caso se da la absorción de un gas en un
-          líquido).
-        </p></div>
+      <div class="card-image-container"><img src="https://ecohabitar.org/wp-content/uploads/2021/12/hielo-1.jpg"
+            alt="Yackchal: fabrica de hielo en el desierto">
+      </div>
+      <!--imagen de antecedentes-->
+
+      <div class="card">
+        <div class="card-info-container">
+          <h2 id="m1">Definición</h2></br>
+
+          <p>
+            El sistema de refrigeración por absorción es un método por el cual se
+            puede remover calor empleando una máquina de absorción. Dicho sistema
+            se impulsa térmicamente por calor residual o energías renovables como
+            la solar, y a diferencia del sistema de refrigeración por compresión
+            de vapor realiza una compresión química en lugar de una compresión
+            física, por lo tanto requiere un aporte muy bajo de energía eléctrica.
+          </p>
+          <p>
+            Para comprender por completo el concepto de refrigeración por
+            absorción, tenemos que comprender a qué nos referimos con el término
+            de absorción. La absorción es el proceso en el cual una sustancia en
+            una fase es incorporada dentro de otra sustancia que se encuentra en
+            una fase diferente (en este caso se da la absorción de un gas en un
+            líquido).
+          </p>
+        </div>
+      </div>
+      
         <!--definición-->
 
-        <div class="card-image-container"><img src="img2.jpg" alt="Proceso de absorción" ></div></div>
-        <!--imagen de definición-->
-
+      <div class="card-image-container"><img src="img2.jpg" alt="Proceso de absorción">
+      </div>
       
+      <!--imagen de definición-->
 
-        <div class="card"><div class="card-info-container"><h2>Equipos y Funcionamiento del Sistema</h2>
-        <p>
-          El ciclo de refrigeración por absorción, al igual que el sistema de
-          refrigeración por compresión, comienza en el evaporador puesto que ahí
-          es donde se da la remoción de calor del aire que se desea refrigerar.
-          Por lo tanto, al momento de que el aire “caliente” cede calor al
-          refrigerante, este se vaporiza y se dirige al absorbedor, en donde
-          ocurre un proceso de transferencia de masa en el cual el refrigerante
-          se disuelve en el absorbente, por ejemplo en el par amoniaco-agua, una
-          unidad de agua puede absorber hasta 800 unidades de amoniaco a 15°C.
-          Cabe resaltar que la temperatura es un factor muy importante en este
-          equipo, pues la absorción física disminuye con el aumento de la misma.
-          Entonces, al momento en que se da la difusión de masa en el
-          absorbedor, la bomba comienza a succionar la mezcla que se conoce como
-          solución fuerte (mayor cantidad de refrigerante con respecto al
-          absorbente), la cual pasa por un intercambiador de calor, en donde
-          esta solución acepta el calor desprendido por la solución débil, la
-          cual se encuentra a una mayor temperatura. En el momento que la
-          solución fuerte sale del intercambiador de calor, este flujo se dirige
-          como líquido precalentado al generador, en donde gracias al calor
-          suministrado de una fuente residual o energía renovable, una parte del
-          refrigerante de la solución fuerte se separa de esta, mientras que la
-          otra parte se queda junto con el absorbente, conformando la solución
-          débil, la cual pasa por el intercambiador, cediendo calor a la
-          solución fuerte, para después pasar a una válvula de estrangulamiento
-          en donde se reduce la presión antes de regresar al absorbedor.
-        </p>
-        <p>
-          Por otra parte, la porción de refrigerante separado de la solución
-          fuerte en el generador, llega al condensador como vapor sobrecalentado
-          a alta presión, en donde cambia a fase líquida al ceder calor al
-          ambiente. Al salir de dicho condensador, el líquido a alta presión
-          pasa por una válvula de expansión en donde existe una caída de
-          presión, para después entrar al evaporador y repetir el ciclo.
-        </p></div>
+
+
+      <div class="card">
+        <div class="card-info-container">
+          <h2 id="m2">Equipos y Funcionamiento del Sistema</h2></br>
+          <p>
+            El ciclo de refrigeración por absorción, al igual que el sistema de
+            refrigeración por compresión, comienza en el evaporador puesto que ahí
+            es donde se da la remoción de calor del aire que se desea refrigerar.
+            Por lo tanto, al momento de que el aire “caliente” cede calor al
+            refrigerante, este se vaporiza y se dirige al absorbedor, en donde
+            ocurre un proceso de transferencia de masa en el cual el refrigerante
+            se disuelve en el absorbente, por ejemplo en el par amoniaco-agua, una
+            unidad de agua puede absorber hasta 800 unidades de amoniaco a 15°C.
+            Cabe resaltar que la temperatura es un factor muy importante en este
+            equipo, pues la absorción física disminuye con el aumento de la misma.
+            Entonces, al momento en que se da la difusión de masa en el
+            absorbedor, la bomba comienza a succionar la mezcla que se conoce como
+            solución fuerte (mayor cantidad de refrigerante con respecto al
+            absorbente), la cual pasa por un intercambiador de calor, en donde
+            esta solución acepta el calor desprendido por la solución débil, la
+            cual se encuentra a una mayor temperatura. En el momento que la
+            solución fuerte sale del intercambiador de calor, este flujo se dirige
+            como líquido precalentado al generador, en donde gracias al calor
+            suministrado de una fuente residual o energía renovable, una parte del
+            refrigerante de la solución fuerte se separa de esta, mientras que la
+            otra parte se queda junto con el absorbente, conformando la solución
+            débil, la cual pasa por el intercambiador, cediendo calor a la
+            solución fuerte, para después pasar a una válvula de estrangulamiento
+            en donde se reduce la presión antes de regresar al absorbedor.
+          </p>
+          <p>
+            Por otra parte, la porción de refrigerante separado de la solución
+            fuerte en el generador, llega al condensador como vapor sobrecalentado
+            a alta presión, en donde cambia a fase líquida al ceder calor al
+            ambiente. Al salir de dicho condensador, el líquido a alta presión
+            pasa por una válvula de expansión en donde existe una caída de
+            presión, para después entrar al evaporador y repetir el ciclo.
+          </p>
+        </div>
+      </div>
         <!--equipos y funcionamiento-->
 
-        <div class="card-image-container"><img src="img1.jpg" alt="Sistema de Refrigeración por Absorción"></div></div>
-        <!--imagen de equipos y funcionamiento-->
+      <div class="card-image-container"><img src="img1.jpg" alt="Sistema de Refrigeración por Absorción">
+      </div>
+      
+      <!--imagen de equipos y funcionamiento-->
 
 
-        <div class="card"><div class="card-info-container"><h2 >Pares Refrigerante-Absorbente</h2>
-        <p >
-          Los grupos inorgánicos y orgánicos son las principales fuentes de
-          refrigerantes y absorbentes. Algunos grupos orgánicos para
-          refrigerantes son aminas, alcoholes, halógenos y HCs; y para
-          absorbentes, se pueden utilizar alcoholes, éteres, alcohol-éteres,
-          amidas, aminas, amina-alcoholes, ésteres, cetonas, ácidos o aldehídos.
-        </p>
-        <ul >
-          <li>amoniaco-agua</li>
-          <li>agua-bromuro de litio</li>
-          <li>amoniaco-cloruro de calcio</li>
-          <li>amoniaco-cloruro de estroncio</li>
-          <li>amoniaco-heptanoilo</li>
-          <li>amoniaco-trietanolamina</li>
-          <li>amoniaco-glicerina</li>
-          <li>amoniaco-aceite de silicona</li>
-          <li>amoniaco-nitrato de litio</li>
-          <li>amoniaco-bromuro de litio</li>
-          <li>amoniaco-bromuro de zinc</li>
-          <li>amoniaco-dimetil éter tetraetilenglicol</li>
-          <li>metilamina-agua</li>
-          <li>cloruro de metilo-tetraetilenglicol</li>
-        </ul>
-        <p >
-          Asimismo, los pares refrigerante-absorbente deben de contar con
-          ciertas características para tener una refrigeración por absorción
-          adecuada:
-        </p>
-        <ul >
-          <li>Ausencia de fase sólida</li>
-          <li>Razón de volatilidad</li>
-          <li>Afinidad</li>
-          <li>Presión</li>
-          <li>Estabilidad</li>
-          <li>Corrosión</li>
-          <li>Seguridad</li>
-          <li>Propiedades de transporte</li>
-          <li>Calor latente</li>
-          <li>Solidez ambiental</li>
-        </ul></div>
+      <div class="card">
+        <div class="card-info-container">
+          <h2 id="m3">Pares Refrigerante-Absorbente</h2></br>
+          <p>
+            Los grupos inorgánicos y orgánicos son las principales fuentes de
+            refrigerantes y absorbentes. Algunos grupos orgánicos para
+            refrigerantes son aminas, alcoholes, halógenos y HCs; y para
+            absorbentes, se pueden utilizar alcoholes, éteres, alcohol-éteres,
+            amidas, aminas, amina-alcoholes, ésteres, cetonas, ácidos o aldehídos.
+          </p>
+          <ul>
+            <li>amoniaco-agua</li>
+            <li>agua-bromuro de litio</li>
+            <li>amoniaco-cloruro de calcio</li>
+            <li>amoniaco-cloruro de estroncio</li>
+            <li>amoniaco-heptanoilo</li>
+            <li>amoniaco-trietanolamina</li>
+            <li>amoniaco-glicerina</li>
+            <li>amoniaco-aceite de silicona</li>
+            <li>amoniaco-nitrato de litio</li>
+            <li>amoniaco-bromuro de litio</li>
+            <li>amoniaco-bromuro de zinc</li>
+            <li>amoniaco-dimetil éter tetraetilenglicol</li>
+            <li>metilamina-agua</li>
+            <li>cloruro de metilo-tetraetilenglicol</li>
+          </ul>
+          <p>
+            Asimismo, los pares refrigerante-absorbente deben de contar con
+            ciertas características para tener una refrigeración por absorción
+            adecuada:
+          </p>
+          <ul>
+            <li>Ausencia de fase sólida</li>
+            <li>Razón de volatilidad</li>
+            <li>Afinidad</li>
+            <li>Presión</li>
+            <li>Estabilidad</li>
+            <li>Corrosión</li>
+            <li>Seguridad</li>
+            <li>Propiedades de transporte</li>
+            <li>Calor latente</li>
+            <li>Solidez ambiental</li>
+          </ul>
+        </div>
+      </div>
         <!--pares refrigerante-absorbente-->
 
-        <div class="card-image-container"><img src="https://www.ecured.cu/images/6/66/Amon%C3%ADaco.jpg" alt="Molécula de amoniaco"></div></div>
-        <!--imagen de pares refrigerante-absorbente-->
+      <div class="card-image-container"><img src="https://www.ecured.cu/images/6/66/Amon%C3%ADaco.jpg"
+            alt="Molécula de amoniaco">
+      </div>
+      <!--imagen de pares refrigerante-absorbente-->
 
-        <div class="card"><div class="card-info-container"><h2>Ventajas y Desventajas</h2>
-        <p>
-          Las ventajas que presenta un sistema de refrigeración por absorción
-          con respecto a otros son:
-        </p>
-        <ul >
-          <li>
-            Pueden funcionar térmicamente mediante fuentes de calor de baja
-            calidad y fuentes de energía renovable, haciéndolo más eficaz en la
-            reducción de emisiones de dióxido de carbono y ahorro de energía.
-          </li>
-          <li>
-            Funcionan en base a refrigerantes respetuosos con el medio ambiente,
-            como el agua, minimizando su impacto a la capa de ozono y
-            calentamiento global.
-          </li>
-          <li>
-            Funcionan de forma silenciosa, ya que casi no tienen piezas móviles
-            a alta velocidad. Esto también hace que su mantenimiento sea
-            económico y sencillo.
-          </li>
-          <li>
-            Ofrecen recuperación de calor de prácticamente cualquier sistema.
-          </li>
-          <li>
-            No hay pérdidas cíclicas durante la operación de encendido y apagado
-            durante la cual se sabe que los Sistemas de Refrigeración por
-            Compresión de Vapor convencionales producen mucho calor residual.
-          </li>
-          <li>
-            Son muy duraderos y se espera que tengan una vida útil de entre 20 y
-            30 años.
-          </li>
-        </ul>
-        <p >
-          Por otro lado, su principal desventaja es su bajo COP, el cual se
-          encuentra entre 0.5 y 0.7 y a causa de los siguientes fenómenos puede
-          verse afectado:
-        </p>
-        <ul >
-          <li>
-            Pérdida de circulación: se debe agregar calor para hervir la
-            solución fuerte, lo cual aumenta la entrada de calor del generador.
-          </li>
-          <li>
-            Calor de mezcla: para romper los enlaces intermoleculares entre
-            refrigerante y absorbente se debe suministrar más calor al
-            generador.
-          </li>
-          <li>
-            Pérdida de expansión: la entrada de mezcla líquido-vapor al
-            evaporador disminuye la transferencia de calor.
-          </li>
-          <li>
-            Pérdida del condensador de reflujo: en la mezcla amoniaco agua, se
-            requiere de un rectificador, lo cual agrega calor al generador.
-          </li>
-        </ul></div>
+      <div class="card">
+        <div class="card-info-container">
+          <h2 id="m4">Ventajas y Desventajas</h2></br>
+          <p>
+            Las ventajas que presenta un sistema de refrigeración por absorción
+            con respecto a otros son:
+          </p>
+          <ul>
+            <li>
+              Pueden funcionar térmicamente mediante fuentes de calor de baja
+              calidad y fuentes de energía renovable, haciéndolo más eficaz en la
+              reducción de emisiones de dióxido de carbono y ahorro de energía.
+            </li>
+            <li>
+              Funcionan en base a refrigerantes respetuosos con el medio ambiente,
+              como el agua, minimizando su impacto a la capa de ozono y
+              calentamiento global.
+            </li>
+            <li>
+              Funcionan de forma silenciosa, ya que casi no tienen piezas móviles
+              a alta velocidad. Esto también hace que su mantenimiento sea
+              económico y sencillo.
+            </li>
+            <li>
+              Ofrecen recuperación de calor de prácticamente cualquier sistema.
+            </li>
+            <li>
+              No hay pérdidas cíclicas durante la operación de encendido y apagado
+              durante la cual se sabe que los Sistemas de Refrigeración por
+              Compresión de Vapor convencionales producen mucho calor residual.
+            </li>
+            <li>
+              Son muy duraderos y se espera que tengan una vida útil de entre 20 y
+              30 años.
+            </li>
+          </ul>
+          <p>
+            Por otro lado, su principal desventaja es su bajo COP, el cual se
+            encuentra entre 0.5 y 0.7 y a causa de los siguientes fenómenos puede
+            verse afectado:
+          </p>
+          <ul>
+            <li>
+              Pérdida de circulación: se debe agregar calor para hervir la
+              solución fuerte, lo cual aumenta la entrada de calor del generador.
+            </li>
+            <li>
+              Calor de mezcla: para romper los enlaces intermoleculares entre
+              refrigerante y absorbente se debe suministrar más calor al
+              generador.
+            </li>
+            <li>
+              Pérdida de expansión: la entrada de mezcla líquido-vapor al
+              evaporador disminuye la transferencia de calor.
+            </li>
+            <li>
+              Pérdida del condensador de reflujo: en la mezcla amoniaco agua, se
+              requiere de un rectificador, lo cual agrega calor al generador.
+            </li>
+          </ul>
+        </div>
+      </div>
         <!--ventajas y desventajas-->
 
-        <div class="card-image-container"><img src="https://static.vecteezy.com/system/resources/previews/011/773/966/non_2x/a-man-pulling-rope-at-co2-emission-level-to-low-position-zero-emission-concept-clean-and-sustainable-technology-stop-global-warming-template-vector.jpg" alt="Bajas emiciones de dióxido de carbono" ></div></div>
-        <!--imagen de ventajas y desventajas-->
+      <div class="card-image-container"><img
+            src="https://static.vecteezy.com/system/resources/previews/011/773/966/non_2x/a-man-pulling-rope-at-co2-emission-level-to-low-position-zero-emission-concept-clean-and-sustainable-technology-stop-global-warming-template-vector.jpg"
+            alt="Bajas emiciones de dióxido de carbono">
+      </div>
+      <!--imagen de ventajas y desventajas-->
 
-        <div class="card"><div class="card-info-container"><h2 >Principales Usos</h2>
-        <p >
-          Como aplicaciones al sistema de refrigeración por absorción, están:
-        </p>
-        <ul>
-          <li>Aire acondicionado para casa-habitación y servicios.</li>
-          <li>Procesos industriales con fuentes de calor residual.</li>
-          <li>Refrigeración de salas técnicas y servidores.</li>
-        </ul></div>
+      <div class="card">
+        <div class="card-info-container">
+          <h2 id="m5">Principales Usos</h2></br>
+          <p>
+            Como aplicaciones al sistema de refrigeración por absorción, están:
+          </p>
+          <ul>
+            <li>Aire acondicionado para casa-habitación y servicios.</li>
+            <li>Procesos industriales con fuentes de calor residual.</li>
+            <li>Refrigeración de salas técnicas y servidores.</li>
+          </ul>
+        </div>
+      </div>
         <!--principales usos-->
 
-        <div class="card-image-container"><img src="https://www.caloryfrio.com/images/articulos/Frio-refrigeracion/Refrigeracion-salas-servidores.webp" alt="Refrigeración de salas de servicio"></div></div>
-        <!--imagen de principales usos-->
+      <div class="card-image-container"><img
+            src="https://www.caloryfrio.com/images/articulos/Frio-refrigeracion/Refrigeracion-salas-servidores.webp"
+            alt="Refrigeración de salas de servicio">
+      </div>
+      <!--imagen de principales usos-->
 
-        <div class="card"><div class="card-info-container"><h2 >Referencias Bibliográficas</h2>
-        <p >
-          Dincer, I. y Kanoglu, M. (2010).
-          <i>Refrigeration Systems and Applications</i>. 2da Edición, Wiley.
-        </p>
+      <div class="card1">
+        <div class="card-info-container">
+          <h2 id="m6">Referencias Bibliográficas</h2></br>
+          <p>
+            Dincer, I. y Kanoglu, M. (2010).
+            <i>Refrigeration Systems and Applications</i>. 2da Edición, Wiley.
+          </p></br>
 
-        <p>
-          Aman, J., Ting, D. y Henshaw, P. (2014). Residencial solar air
-          conditioning: Energy and Exergy analyses of an ammonia-water
-          absorption cooling system.<i> Applied Thermal Engineering, 62</i>(2),
-          424-432.
-          <a
-            target="_blank"
-            href="https://doi.org/10.1016/j.applthermaleng.2013.10.006"
-            >https://doi.org/10.1016/j.applthermaleng.2013.10.006</a
-          >
-        </p>
-        <p >
-          Nikbakhti, R., Wang, X., Hussein, A. & Iranmanesh, A. (202).
-          Absorption cooling systems-Review of various techniques for energy
-          performance enhancement. <i>Alexandria Engineering Journal, 59</i>(2),
-          707-738.
-          <a target="_blank" href="https://doi.org/10.1016/j.aej.2020.01.036"
-            >https://doi.org/10.1016/j.aej.2020.01.036</a
-          >
-        </p></div></div>
-        <!--referencias bibliográficas-->
+          <p>
+            Aman, J., Ting, D. y Henshaw, P. (2014). Residencial solar air
+            conditioning: Energy and Exergy analyses of an ammonia-water
+            absorption cooling system.<i> Applied Thermal Engineering, 62</i>(2),
+            424-432.
+            <a target="_blank"
+              href="https://doi.org/10.1016/j.applthermaleng.2013.10.006">https://doi.org/10.1016/j.applthermaleng.2013.10.006</a>
+          </p></br>
+          <p>
+            Nikbakhti, R., Wang, X., Hussein, A. & Iranmanesh, A. (202).
+            Absorption cooling systems-Review of various techniques for energy
+            performance enhancement. <i>Alexandria Engineering Journal, 59</i>(2),
+            707-738.
+            <a target="_blank"
+              href="https://doi.org/10.1016/j.aej.2020.01.036">https://doi.org/10.1016/j.aej.2020.01.036</a>
+          </p></br>
+        </div>
+      </div>
+      <!--referencias bibliográficas-->
 
-    </div></main>
-    <!--contenido-->
+    </div>
+  </main>
+  <!--contenido-->
 
-    <footer>
-      <ul class="contact">
+  <footer>
+    <ul class="contact">
       <li><address>Guanajuato, México</address></li>
-      <li><small>2024 Elías Martínez Sánchez</small></li>
+      <li><small>2024-Elías Martínez Sánchez</small></li>
       <li><small>em2317245@gmail.com</small></li>
-      </ul>
-    </footer>
-    <!--pie de página-->
-  </body>
+    </ul>
+  </footer>
+  <!--pie de página-->
+</body>
+
 </html>
